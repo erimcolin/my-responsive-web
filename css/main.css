@@ -1,0 +1,103 @@
+body{
+  font-family: 'Bellefair', serif;
+  font-size: 1.5em;
+}
+
+a{
+  text-decoration: none;
+  /* margin-left: 20px; */
+  font-size: 25px;
+  color: grey;
+}
+
+a:hover{
+  color: white;
+}
+
+header{
+  background-color: #343a40;
+}
+
+header .anchors{
+  margin-top: 13px;
+  letter-spacing: 2px;
+}
+
+header h1{
+  margin-left: 33px;
+}
+
+.photo{
+  background-image: url("../assets/images/ingredientes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  /* opacity: 1.5px; */
+  height: 400px;
+  color: white;
+  font-size: 99px;
+}
+
+.photo p {
+  margin-top: 99px;
+}
+
+#buttonCall {
+  border-radius: 6px;
+  padding: 14px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.what-we-do{
+  margin-top: 23px;
+}
+
+.contact-us h2{
+  margin: 23px 0 9px 0;
+}
+
+.images-section{
+  margin-top: 29px;
+}
+
+.card{
+  margin-left: 8%;
+  text-align: left;
+}
+
+.buttonDummy button{
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  background-color: #007bff;
+  color: white;
+  margin-top: 19px;
+}
+
+.textDummy h3{
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer{
+  background-color: #343a40;
+  margin-top: 29px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width:768px) {
+  .card{
+    width: 100%;
+  }
+}
